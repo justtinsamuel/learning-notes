@@ -41,10 +41,35 @@ Table: Table has Column, Row
 in table there is:
     Primary Key: unique key in every table.
     Foreign Key: a primary key in other table.
-    example: NIK number
+    example: NIK number Primary di Table KTP, di Table Bansos jadi foreign key.
 
+Main Table:
+    Master:
+        Non transaction information. (Nama, Jenis Barang, Tanggal Lahir, dll)
+        Not change oftenly.
+        Paling up-to-date.
+    Transaction:
+        Tanggal kejadian.
+        Historical data.
+    
+    Contoh: Toko HP
+    Master: Table pelanggan
+    Transaction: Table penjualan
 
+Db Relasional:
+    Contoh:
+    Table Faktur:
+        No Faktur
+        Kode Pelanggan
+        Kode Barang
+    Info Master:
+        Nama Pelanggan
+        Nama Barang
+    Info Transaction:
+        Tanggal Transaksi
+        Qty
 
+    Define mana yang menggunakan table master mana yang transaction. Remember the business flow and rules.
 
 # Data Definition Language
 
