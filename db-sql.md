@@ -72,5 +72,15 @@ Db Relasional:
     Define mana yang menggunakan table master mana yang transaction. Remember the business flow and rules.
 
 # Data Definition Language
+Perintah mengolah Db, Table, and Schema.
+    Create = new table
+    Alter   = change table component
+    Drop    = delete table
+    Truncate = delete data in table
 
 # Data Modification Language
+Perinta get dan change data
+    select = ambil data table
+    insert = input data table
+    update = merubah data table
+    delete = menghapus data row
