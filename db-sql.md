@@ -84,3 +84,21 @@ Perinta get dan change data
     insert = input data table
     update = merubah data table
     delete = menghapus data row
+
+# Perintah SQL Dasar
+CREATE TABLE
+rules dalam create table: cant start by number, huruf kecil (not mandatory), tanpa spasi.
+
+contoh:
+create table contohtable(
+    // attribute:
+    id_pelanggan varchar(50),
+    namaPelanggan varchar(50),
+    purchaseDate datetime,
+    
+    // primary key:
+    constrain pk_pelanggan
+    primary key (id_pelanggan)
+);
+
+INPUT DATA TABLE
