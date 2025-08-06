@@ -100,5 +100,3 @@ create table contohtable(
     constrain pk_pelanggan
     primary key (id_pelanggan)
 );
-
-INPUT DATA TABLE
